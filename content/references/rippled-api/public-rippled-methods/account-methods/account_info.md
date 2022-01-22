@@ -23,7 +23,7 @@ An example of an account_info request:
 {
   "id": 2,
   "command": "account_info",
-  "account": "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn",
+  "account": "rMav3Zzkoy4xBnowXkfJ4VGqCWowRvo91q",
   "strict": true,
   "ledger_index": "current",
   "queue": true
@@ -37,7 +37,7 @@ An example of an account_info request:
     "method": "account_info",
     "params": [
         {
-            "account": "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn",
+            "account": "rMav3Zzkoy4xBnowXkfJ4VGqCWowRvo91q",
             "strict": true,
             "ledger_index": "current",
             "queue": true
@@ -50,7 +50,7 @@ An example of an account_info request:
 
 ```sh
 #Syntax: account_info account [ledger_index|ledger_hash] [strict]
-rippled account_info rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn validated strict
+rippled account_info rMav3Zzkoy4xBnowXkfJ4VGqCWowRvo91q validated strict
 ```
 
 <!-- MULTICODE_BLOCK_END -->
@@ -85,7 +85,7 @@ An example of a successful response:
     "type": "response",
     "result": {
         "account_data": {
-            "Account": "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn",
+            "Account": "rMav3Zzkoy4xBnowXkfJ4VGqCWowRvo91q",
             "Balance": "999999999960",
             "Flags": 8388608,
             "LedgerEntryType": "AccountRoot",
@@ -132,7 +132,7 @@ An example of a successful response:
 {
     "result": {
         "account_data": {
-            "Account": "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn",
+            "Account": "rMav3Zzkoy4xBnowXkfJ4VGqCWowRvo91q",
             "Balance": "999999999960",
             "Flags": 8388608,
             "LedgerEntryType": "AccountRoot",
@@ -180,7 +180,7 @@ An example of a successful response:
 {
    "result" : {
       "account_data" : {
-         "Account" : "rG1QQv2nh2gr7RCZ1P8YYcBUKCCN633jCn",
+         "Account" : "rMav3Zzkoy4xBnowXkfJ4VGqCWowRvo91q",
          "Balance" : "9986",
          "Flags" : 1114112,
          "LedgerEntryType" : "AccountRoot",
